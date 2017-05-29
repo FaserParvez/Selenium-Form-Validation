@@ -1,37 +1,5 @@
 @charset "utf-8";
 /* CSS Document */
-body{
-background-color:#40538D;
-}
-
-h1{
-font-family:Tahoma;
-text-align:center;
-color:#8AE68A;
-border-color:#ff0000;
-}
-
-form{
-margin:0 auto;
-width:400px;
-padding:14px;
-border:solid 2px #FFD700;
-border-width:5px; 
-border-style:outset;
-background:#CFCFA6;
-}
-
-form p label {
-display:block;
-float:left;
-width:200px;
-}
-
-label {
-font-family:Tahoma;
-font-style:bold;
-color:#0000A1;
-}
 
 span {
 font-family:Tahoma;
@@ -39,8 +7,3 @@ font:bold;
 font-style: italic;
 color: #CF0000;
 }
-
-input {
-width: 200px;
-}
- 
