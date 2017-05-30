@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+  <title>Test Suite</title>
+</head>
+<body>
+<table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
+<tr><td><b>Test Suite</b></td></tr>
+<tr><td><a href="firstName_empty.html">firstName_empty</a></td></tr>
+<tr><td><a href="firstName_invalid_chars.html">firstName_invalid_chars</a></td></tr>
+<tr><td><a href="lastName_empty.html">lastName_empty</a></td></tr>
+<tr><td><a href="lastName_invalid_chars.html">lastName_invalid_chars</a></td></tr>
+<tr><td><a href="email_empty.html">email_empty</a></td></tr>
+<tr><td><a href="email_no_@_symbol.html">email_no_@_symbol</a></td></tr>
+<tr><td><a href="email_incorrect_domain_part.html">email_incorrect_domain_part</a></td></tr>
+<tr><td><a href="email_no_local_part.html">email_no_local_part</a></td></tr>
+<tr><td><a href="userName_empty.html">userName_empty</a></td></tr>
+<tr><td><a href="userName_too_short.html">userName_too_short</a></td></tr>
+<tr><td><a href="userName_similar_to_email.html">userName_similar_to_email</a></td></tr>
+<tr><td><a href="userName_contains_invalid_chars.html">userName_contains_invalid_chars</a></td></tr>
+<tr><td><a href="password_empty.html">password_empty</a></td></tr>
+<tr><td><a href="password_too_short.html">password_too_short</a></td></tr>
+<tr><td><a href="password_too_long.html">password_too_long</a></td></tr>
+<tr><td><a href="password_all_lower_case.html">password_all_lower_case</a></td></tr>
+<tr><td><a href="password_all_upper_case.html">password_all_upper_case</a></td></tr>
+<tr><td><a href="password_doesnt_contain_number_or_symbol.html">password_doesnt_contain_number_or_symbol</a></td></tr>
+<tr><td><a href="passwords_dont_match.html">passwords_dont_match</a></td></tr>
+
+</tbody></table>
+</body>
+</html>

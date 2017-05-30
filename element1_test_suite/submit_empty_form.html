@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>submit_empty_form</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">submit_empty_form</td></tr>
+</thead><tbody>
+<tr>
+	<td>type</td>
+	<td>firstName</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>lastName</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>email</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>userName</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>password</td>
+	<td></td>
+</tr>
+<tr>
+	<td>uncheck</td>
+	<td>acceptTerms</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>confirmPassword</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submitBtn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=firstNameErrorMsg</td>
+	<td>Please enter your first name.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=lastNameErrorMsg</td>
+	<td>Please enter your last name.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=emailErrorMsg</td>
+	<td>Please enter a valid email address.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=userNameErrorMsg</td>
+	<td>Your username must be a minimum of 6 characters (letters, numbers, full-stops and underscores only). It can't be your email address.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=passwordErrorMsg</td>
+	<td>Your password must be between 6 and 20 characters. It must contain a mixture of upper and lower case letters, and at least one number or symbol.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>termsErrorMsg</td>
+	<td>You must accept the terms and conditions before signing up.</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>firstName</td>
+	<td>javascript{validFirstName()}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>lastName</td>
+	<td>javascript{validLastName()}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>email</td>
+	<td>javascript{validEmail()}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>userName</td>
+	<td>javascript{validUserName()}</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>javascript{validPassword()}</td>
+	<td>enteredPassword</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>password</td>
+	<td>${enteredPassword}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>confirmPassword</td>
+	<td>${enteredPassword}</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>acceptTerms</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submitBtn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=firstNameErrorMsg</td>
+	<td>OK</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=lastNameErrorMsg</td>
+	<td>OK</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=emailErrorMsg</td>
+	<td>OK</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=userNameErrorMsg</td>
+	<td>OK</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=passwordErrorMsg</td>
+	<td>OK</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>termsErrorMsg</td>
+	<td>OK</td>
+</tr>
+</tbody></table>
+</body>
+</html>
