@@ -175,7 +175,8 @@ $(document).ready(function() {
    //This function will check the password expression that has been entered.    
   function validatepasswordexp() {
       var e = $("#password").val();
-      var regexp7 = /((?=.*\d)(?=.*[a-z])(?=.*[A-Z])){6,20}/; //check references document.
+      var regexp7 = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,20}$/; 	
+    //check references document.
     if(regexp7.test(e))  {
       passwordErrorMsg.text("OK");
       // This will toggle a slide for the error message.     
