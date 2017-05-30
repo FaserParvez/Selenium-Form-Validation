@@ -70,13 +70,7 @@
     border: 1px solid #257C9E;
     font-size: 15px;
 }
-.form-section input[type="button"]:hover,
-.form-section input[type="submit"]:hover{
-    background: #2A6881;
-    -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
-    -webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
-    box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
-}
+
 .form-section .privacy-policy{
     float: right;
     width: 250px;
