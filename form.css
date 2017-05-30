@@ -34,27 +34,10 @@
     box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
     border: 1px solid #257C9E;
 }
-.form-style-10 h1 > span{
-    display: block;
-    margin-top: 2px;
-    font: 13px Arial, Helvetica, sans-serif;
-}
-.form-style-10 label{
-    display: block;
-    font: 13px Arial, Helvetica, sans-serif;
-    color: #888;
-    margin-bottom: 15px;
-}
+
 .form-style-10 input[type="text"],
-.form-style-10 input[type="date"],
-.form-style-10 input[type="datetime"],
 .form-style-10 input[type="email"],
-.form-style-10 input[type="number"],
-.form-style-10 input[type="search"],
-.form-style-10 input[type="time"],
-.form-style-10 input[type="url"],
 .form-style-10 input[type="password"],
-.form-style-10 textarea,
 .form-style-10 select {
     display: block;
     box-sizing: border-box;
@@ -119,12 +102,4 @@
     color: #4D4D4D;
     margin-top: 10px;
     text-align: right;
-}
-
-
-span {
-font-family:Tahoma;
-font:bold;
-font-style: italic;
-color: #CF0000;
 }
