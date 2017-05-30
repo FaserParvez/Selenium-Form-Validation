@@ -180,8 +180,6 @@ $(document).ready(function() {
     if(regexp7.test(e))  {
       passwordErrorMsg.text("OK");
       // This will toggle a slide for the error message.     
-      $('#passwordErrorMsg').slideToggle(1500);
-      $('#passwordErrorMsg').slideToggle(1500);
     } else { 
       passwordErrorMsg.text("Your password must be between 6 and 20 characters. It must contain a mixture of upper and lower case letters, and at least one number or symbol.");
     }
@@ -190,7 +188,7 @@ $(document).ready(function() {
   //This function will check the password expression that has been entered.
   function validatepasswordexp2() {
       var e = $("#password2").val();
-      var regexp7 = /((?=.*\d)(?=.*[a-z])(?=.*[A-Z]))/; //check references document.
+      var regexp7 = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,20}$/; 
     if(regexp7.test(e))  {
       confirmPasswordErrorMsg.text("OK");
     } else { 
