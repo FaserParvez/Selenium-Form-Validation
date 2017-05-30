@@ -197,12 +197,11 @@ $(document).ready(function() {
   }
   // This function will check to see if both the passwords are right.
   function validatebothpass() {
-    if(password2.val() !== password1.val() || password1.val() !== password2.val()) {
-      confirmPasswordErrorMsg.text("The passwords don't match.");
-      passwordErrorMsg.text("The Passwords don't match.");
-    } else if (password2.val() == password1.val()){
+    if(password1.val() == password2.val()) {
       confirmPasswordErrorMsg.text("OK");
-      passwordErrorMsg.text("OK");
+      passwordErrorMsg.text("Ok");
+    } else if (password2.val() == password1.val()){
+      passwordErrorMsg.text("he passwords don't match.");
     }
   }
   
