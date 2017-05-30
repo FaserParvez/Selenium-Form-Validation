@@ -160,7 +160,9 @@ $(document).ready(function() {
 
   //This function will check to see if less than 6 characters have been entered.  
   function validatepassword1() {
-    if(password1.val().length < 6) {
+    var e = $("#password").val();
+    var regexp7 = /((?=.*\d)(?=.*[a-z])(?=.*[A-Z]))/; //check references document.
+    if(regexp7.test(e) && password1.val().length < 6) {
       passwordErrorMsg.text("Your password must be between 6 and 20 characters. It must contain a mixture of upper and lower case letters, and at least one number or symbol.");
     }
   } 
