@@ -61,8 +61,6 @@ $(document).ready(function() {
       return false;
     } else {
       firstNameErrorMsg.text("OK");
-      // This will toggle a slide for the error message.
-      $('#firstNameErrorMsg').slideToggle(1500);
       return true;
     }
   }
@@ -74,8 +72,6 @@ $(document).ready(function() {
       var regexp2 = /[A-Za-z0-9\s\[\]\.\-#']+$/; //check references document.
   if(regexp.test(a)) {
       firstNameErrorMsg.text("OK");
-      // This will toggle a slide for the error message.
-      $('#firstNameErrorMsg').slideToggle(1500);
     } else {
   if(regexp2.test(a)) { 
       firstNameErrorMsg.text("First name can only contain letters.");
@@ -91,8 +87,6 @@ $(document).ready(function() {
       return false;
     } else {
       lastNameErrorMsg.text("OK");
-      // This will toggle a slide for the error message.
-      $('#lastNameErrorMsg').slideToggle(1500);
       return true;
     }
   }
@@ -104,8 +98,6 @@ $(document).ready(function() {
       var regexp4 = /[A-Za-z0-9\s\[\]\.\-#']+$/; //check references document.
   if(regexp3.test(b)) {
       lastNameErrorMsg.text("OK");
-      // This will toggle a slide for the error message.
-       $('#lastNameErrorMsg').slideToggle(1500);
     } else {
   if(regexp4.test(b)) { 
       lastNameErrorMsg.text("Last name can only contain letters.");    
@@ -119,9 +111,6 @@ $(document).ready(function() {
       var regexp5 = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/; //check references document. 
   if(regexp5.test(c)) {
       emailErrorMsg.text("OK");
-      // This will toggle a slide for the error message.
-      $('#emailErrorMsg').slideToggle(1500);
-      $('#emailErrorMsg').slideToggle(1500);
       return true
     } else {
       emailErrorMsg.text("Please enter a valid email address.");
@@ -135,9 +124,6 @@ $(document).ready(function() {
       var regexp6 = /^\s*[a-zA-Z0-9_.]+\s*$/; //check references document.
     if(regexp6.test(d)) {
       userNameErrorMsg.text("OK");
-      // This will toggle a slide for the error message.
-      $('#userNameErrorMsg').slideToggle(1500);
-      $('#userNameErrorMsg').slideToggle(1500);
     } else
       userNameErrorMsg.text("Your username must be a minimum of 6 characters (letters, numbers, full-stops and underscores only). It can't be your email address.");
   }
@@ -203,9 +189,6 @@ $(document).ready(function() {
     } else if (password2.val() == password1.val()){
       confirmPasswordErrorMsg.text("OK");
       passwordErrorMsg.text("OK");
-      // This will toggle a slide for the error message. 
-      $('#confirmPasswordErrorMsg').slideToggle(1500);
-      $('#confirmPasswordErrorMsg').slideToggle(1500);
     }
   }
   
@@ -213,9 +196,6 @@ $(document).ready(function() {
   function validateterms() {
     if ($(acceptTerms).is(':checked')) {
       termsErrorMsg.text("OK");
-      // This will toggle a slide for the error message. 
-      $('#termsErrorMsg').slideToggle(1500);
-      $('#termsErrorMsg').slideToggle(1500);
     } else {
       termsErrorMsg.text("You must accept the terms and conditions before signing up.");
     }
