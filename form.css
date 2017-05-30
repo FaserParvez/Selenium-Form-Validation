@@ -54,17 +54,6 @@
     -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
 }
 
-.form-section .section{
-    font: normal 20px 'Bitter', serif;
-    color: #2A88AD;
-    margin-bottom: 5px;
-}
-.form-section .section span {
-font-family:Tahoma;
-font:bold;
-font-style: italic;
-color: #CF0000;
-}
 .form-section input[type="button"],
 .form-section input[type="submit"]{
     background: #2A88AD;
@@ -96,3 +85,11 @@ color: #CF0000;
     margin-top: 10px;
     text-align: right;
 }
+
+span {
+   font-family:Tahoma;
+   font:bold;
+   font-style: italic;
+   color: #CF0000;
+}
+
